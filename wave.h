@@ -17,6 +17,7 @@ typedef struct {
 	char Subchunk2ID[4];
 	int Subchunk2Size;
 } WAVHDR;
+
 //#define DEBUG
 #define SAMPLE_RATE 16000
 
