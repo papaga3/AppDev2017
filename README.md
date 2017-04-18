@@ -21,22 +21,26 @@ you need to modify 2 files:
 	a. ~/etc/asound.conf
 	b. ~/.asoundrc
 with the following contents:
-/*
-pcm.!default {
-  type plug
-  slave {
+ /*
+  pcm.!default {
+   type plug
+   slave {
     pcm "hw:1,0"
-  }
-}
-ctl.!default {
+   }
+ }
+ ctl.!default {
     type hw
     card 1
-}
+ }
 */
 Run "alsamixer" to check if the USB sound card is the default audio device.
 
-2. operating instructions
-............
+2. operating instruction
+....1. Plug in the power cable, Ethernet cable, USB sound card and a microphone.
+....2. Run command "make" to build the project.
+....3. Run command "./sound.a" to run the project.
+you will see the columns which display the recorded sound.
+....4. To delete excution file, to command "make clean"
 
 3. File manifest
 The list of file in the project
