@@ -28,7 +28,7 @@ void clearScreen(void)
 void displayBar(double rms, int col)
 {
 	int i;
-	for(i=70;i>=70-rms/100 && i>=2;i--)
+	for(i=80;i>=80-rms;i--)
 	{
 		//if(i<2) break;
 		gotoXY(i, col);//start appear from the second row and go down
