@@ -50,6 +50,7 @@ The list of file in the project
 ------- wave.c wave.h
 ------- main.c
 ------- README.md
+------- sound.php
 
 4. Copyright and licensing
 ----- This project was created by NGUYEN QUOC HUY (e1601140).
