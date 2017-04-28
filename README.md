@@ -41,6 +41,7 @@ with the following contents:
 ....3. Run command "./sound.a" to run the project.
 you will see the columns which display the recorded sound.
 ....4. To delete excution file, to command "make clean"
+....5. The recorded data is also sent to school server for storage.
 
 3. File manifest
 The list of file in the project
@@ -81,5 +82,8 @@ to make sure it is functioning correctly by running a test program.
 ------Ver 1.1 : 20.04.2017
       Fixed some minor bugs.
  
+9. Download project.
+The project can be download or clone using the following github link:
+https://github.com/papaga3/AppDev2017.git
 
 
